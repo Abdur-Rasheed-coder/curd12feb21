@@ -29,7 +29,6 @@ public class Curd12feb21Application implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		
 		User u1=new User();
-	
 		u1.setName("Abdul Rasheed");
 		u1.setPassword("abdul");
 		u1.setMob("9540845634");
@@ -49,9 +48,13 @@ public class Curd12feb21Application implements CommandLineRunner {
        c1.setUser(u1);
        Contact c2=new Contact();
       
-       c2.setCname("Atul");
-       c2.setCemail("atul@gmail.com");
-       c2.setUser(u1);       
+       c2.setCname("Anil kumar");
+       c2.setCemail("anil@gmail.com");
+       c2.setUser(u1); 
+       Contact c3=new Contact();
+       c3.setCname("Akash");
+       c3.setCemail("akash@gmail.com");
+       c3.setUser(u1);
        al.add(c1);
        al.add(c2);
        u1.setContact(al);
