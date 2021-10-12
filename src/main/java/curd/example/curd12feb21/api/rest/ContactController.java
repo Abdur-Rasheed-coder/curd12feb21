@@ -19,13 +19,8 @@ ContactService contactservice;
 public List<Contact> getAllContact()
 {
 return (List<Contact>)contactservice.getAllContact();
+
+dfsdgdfhgfhgj fdhfhgfhgf
 }
-/*
-@GetMapping("api/usercontact/{userid}")
-public Optional<Contact> getUserContact(@PathVariable long userid )
-{
-	return contactservice.getContactByUserId(userid);
 	
-}
-*/	
 }
